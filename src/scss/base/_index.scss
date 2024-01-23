@@ -1,0 +1,6 @@
+// den filer som skrivs som forward här skickas vidare till style.scss
+
+@forward 'base';
+@forward 'reset';
+@forward 'typography';
+@forward 'forms';

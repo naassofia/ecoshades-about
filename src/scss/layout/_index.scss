@@ -1,0 +1,7 @@
+//denna fil skickar vidare alla andra filer som man vill skicka till style.css
+// filerna läggs till i style.css i den ordningen de listas här.
+
+@forward 'layout';
+@forward 'nav';
+@forward 'header';
+@forward 'footer';

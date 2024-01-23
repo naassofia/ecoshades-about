@@ -1,0 +1,8 @@
+// För att "länka" alla _filer så att de kopplas till style.css måste de läggas in i denna fil. 
+// det som saknas här länkas INTE till style.css
+// denna fil, style.scss har som enda uppgift att skicka vidare andra filer till style.css
+
+//eftersom index.scss är tillagd i base-mappen skickas alla filer i base-mappen med om man skriver nedan rad
+@use 'base';
+@use 'layout';
+@use 'pages';

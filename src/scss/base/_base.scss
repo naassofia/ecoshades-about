@@ -1,0 +1,8 @@
+//börja med att hämta in typografi-filen::after
+
+@use '../utilities/custom-properties';
+
+html, body {
+    font-family: var(--font-sans);
+    font-size: var(--font-size);
+}
